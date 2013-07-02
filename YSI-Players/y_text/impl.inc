@@ -88,19 +88,19 @@ Operators:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Storage\y_amx"
-#include "..\YSI-Core\y_utils"
-#include "..\YSI-Storage\y_ini"
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Data\y_iterate"
+#include "..\YSI_Storage\y_amx"
+#include "..\YSI_Core\y_utils"
+#include "..\YSI_Storage\y_ini"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Data\y_iterate"
 
-#include "..\YSI-Server\y_scriptinit"
+#include "..\YSI_Server\y_scriptinit"
 
-#include "..\YSI-Players\y_languages"
+#include "..\YSI_Players\y_languages"
 
-#include "..\YSI-Visual\y_dialog"
+#include "..\YSI_Visual\y_dialog"
 
-#include "..\YSI-Coding\y_inline"
+#include "..\YSI_Coding\y_inline"
 
 #include "y_natives"
 
@@ -211,7 +211,7 @@ enum e_TEXT_ENTRY
 #endif
 
 #include "y_styles"
-#include "..\YSI-Coding\y_hooks"
+#include "..\YSI_Coding\y_hooks"
 
 static stock
 	YSI_g_sTextSets[Y_TEXT_MAX_SETS][e_TEXT_SETS],

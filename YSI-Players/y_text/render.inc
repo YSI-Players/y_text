@@ -63,14 +63,14 @@ Variables:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Core\y_utils"
-#include "..\YSI-Server\y_colours"
-#include "..\YSI-Core\y_debug"
+#include "..\YSI_Core\y_utils"
+#include "..\YSI_Server\y_colours"
+#include "..\YSI_Core\y_debug"
 //#include "..\y_ini"
 #include "y_shortfunc"
 
 #include "y_natives"
-#include "..\YSI-Coding\y_va"
+#include "..\YSI_Coding\y_va"
 
 #if !defined FORMAT_FADE_STEP
 	#define FORMAT_FADE_STEP 2

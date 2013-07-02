@@ -148,10 +148,10 @@ Operators:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
 // Include "y_unique" multiple times.
-#include "..\YSI-Internal\y_unique"
+#include "..\YSI_Internal\y_unique"
 
 #if !defined _inc_y_text
 	#error Did you do <YSI-Players/y_text> instead of the required <YSI-Players\y_text>?
@@ -167,7 +167,7 @@ Operators:
 #include <a_samp>
 
 // Make sure this is included early.
-#include "..\YSI-Data\y_playerset"
+#include "..\YSI_Data\y_playerset"
 
 // Apparently I'd already written the internal code to support this and forgot!
 #define Y_TEXT_UNIQUE

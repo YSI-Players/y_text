@@ -68,9 +68,9 @@ Variables:
 
 #include "y_version"
 
-#include "..\YSI-Storage\y_xml"
-#include "..\YSI-Server\y_td"
-#include "..\YSI-Server\y_colours"
+#include "..\YSI_Storage\y_xml"
+#include "..\YSI_Server\y_td"
+#include "..\YSI_Server\y_colours"
 
 //#include "..\y_hooks"
 
